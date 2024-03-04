@@ -13,3 +13,18 @@ peline {
         }
     }
 }
+
+post {
+    always {
+        echo "I will always say hello again !"
+    }
+    success {
+        echo "Yey, Sucsess"
+    }
+    failure {
+        echo "Oh no, Failure"
+    }
+    cleanup {
+        echo "Don't care success or error"
+    }
+}
