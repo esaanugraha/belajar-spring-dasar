@@ -1,5 +1,9 @@
 peline {
-    agent any
+    agent {
+        node {
+            label "docker-esa"
+        }
+    }
 
     stages {
         stage('Hello') {
