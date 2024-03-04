@@ -8,7 +8,7 @@ peline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello World'
+                sh 'echo "test-jenkins" > index2.html'
             }
         }
     }
